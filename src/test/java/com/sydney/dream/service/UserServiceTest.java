@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class UserServiceTest extends SpringTestCase{
     @Autowired
     private UserService userService;
+    //log4j 的监听器。
     Logger logger = Logger.getLogger(UserServiceTest.class);
 
     @Test

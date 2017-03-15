@@ -7,8 +7,9 @@
         <result column="USER_NAME" property="userName" jdbcType="CHAR" />
         <result column="USER_PASSWORD" property="userPassword" jdbcType="CHAR" />
         <result column="USER_EMAIL" property="userEmail" jdbcType="CHAR" />
+        <result column="USER_PHONE" property="userPhoneNum" />
     </resultMap>
     <select id="selectUserById" parameterType="int" resultMap="BaseResultMap">
-        SELECT * FROM t_user WHERE USER_ID = #{userId}
+        SELECT * FROM users WHERE USER_ID = #{userId}
     </select>
 </mapper>

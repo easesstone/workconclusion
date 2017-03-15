@@ -4,10 +4,12 @@ package com.sydney.dream.module;
  * Created by Sydney on 2017/1/10.
  */
 public class User {
-    private Integer userId;
-    private String userName;
-    private String userPassword;
-    private String userEmail;
+
+    private Integer userId; // 用户id
+    private String userName; // 用户名
+    private String userPassword;  // 用户密码
+    private String userPhoneNum;   //用户密码
+    private String userEmail;   //用户邮箱
 
     public Integer getUserId() {
         return userId;
@@ -33,6 +35,14 @@ public class User {
         this.userPassword = userPassword;
     }
 
+    public String getUserPhoneNum() {
+        return userPhoneNum;
+    }
+
+    public void setUserPhoneNum(String userPhoneNum) {
+        this.userPhoneNum = userPhoneNum;
+    }
+
     public String getUserEmail() {
         return userEmail;
     }
@@ -41,11 +51,17 @@ public class User {
         this.userEmail = userEmail;
     }
 
-    @Override
-    public String toString() {
-        return "User [userId=" + userId + ", userName=" + userName
-                + ", userPassword=" + userPassword + ", userEmail=" + userEmail
-                + "]";
+    public User() {
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId=" + userId +
+                ", userName='" + userName + '\'' +
+                ", userPassword='" + userPassword + '\'' +
+                ", userPhoneNum='" + userPhoneNum + '\'' +
+                ", userEmail='" + userEmail + '\'' +
+                '}';
+    }
 }

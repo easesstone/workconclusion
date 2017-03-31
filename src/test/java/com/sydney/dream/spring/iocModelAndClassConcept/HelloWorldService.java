@@ -1,4 +1,4 @@
-package com.sydney.dream.spring.helloworld;
+package com.sydney.dream.spring.iocModelAndClassConcept;
 
 /**
  * Created by lWX355499 on 2017/3/31.

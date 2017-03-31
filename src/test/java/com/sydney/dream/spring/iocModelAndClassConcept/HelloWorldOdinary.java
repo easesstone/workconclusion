@@ -1,4 +1,4 @@
-package com.sydney.dream.spring.helloworld;
+package com.sydney.dream.spring.iocModelAndClassConcept;
 
 /**
  * Created by Sydney on 2017/3/31.
@@ -29,13 +29,14 @@ package com.sydney.dream.spring.helloworld;
  *
  * 以下：写到关于类的一些概念，
  * 即，
- * 1，类的初始化，类的构造函数，方法的重载，方法的覆盖，类的加载流程，类初始化的顺序
+ * 1，类的初始化以及初始化顺序，类的构造函数，方法的重载，方法的覆盖，类的加载流程
  * 2，类的封装
  * 3，类的抽象
  * 4，类的继承
  * 5，类的多态
  * 6，接口
  * 7，内部类
+ * 8，类的加载机制
  *
  */
 
